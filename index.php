@@ -1,4 +1,3 @@
 <?php
-    session_start();
-    phpinfo();
-    echo 'test';
+    require_once("bf_loader.php");
+    $bf = new BF();
